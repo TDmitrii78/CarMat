@@ -9,7 +9,7 @@
 
 body {
     font-family: "Heebo", "Arial", serif;
-    background-color: #E5E5E5;
+    background-color: white;
     }
 
 h1 h2 h3 h4 h5 h6 {
@@ -25,6 +25,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     } 
     
 
@@ -32,7 +33,7 @@ p {
     /* ----------------------   Для Desktop -----------------------------------------*/
 
 
-@media (min-width: 801px) and (max-width: 1440px) {
+@media (min-width: 901px) and (max-width: 1440px) {
    
     .Block1_Flex {          /* Верх блок меню */
         display: flex;
@@ -40,7 +41,7 @@ p {
         justify-content: flex-end;
         width: 100%;
         height: 50px;
-        margin-bottom: 12.15vw;
+        margin-bottom: 140px;
     } 
 
     .MobilMenu {
@@ -58,7 +59,7 @@ p {
         margin-left: 2.86%;
         }
 
-    #OtstupRight1 {
+    #OtstupRight1 {             /*  Отступ справо для последнего элемента списка  */
         margin-right: 5.2%;
         }
     
@@ -70,6 +71,24 @@ p {
 
     .Block1Container1 {   /* Блок с текстом */
         width: 497px;
+       margin-top: 18px; 
+    }
+
+    .Size_1 {          /* Размер шрифта заголовка  */
+        font-size: 44px;
+    }
+
+    #OtstupTop1 {
+        margin-top: 35px;
+    }
+
+    .Button1 {                  /*  Кнопка  */
+        background-color: rgba(255, 100, 100, 1);
+        color: white;
+        width: 208px;
+        height: 47px;
+        margin-top: 38px;
+        font-size: 20px;
     }
 
     .Block2Container1 {   /* Блок с Фотографией */
@@ -80,22 +99,156 @@ p {
         margin-left: 9.98%;
     }
 
-    .Button1 {                  /*  Кнопка  */
-        background-color: rgba(255, 100, 100, 1);
-        color: white;
-        width: 208px;
-        height: 47px;
+    .Block3_Flex {                /* Флекс контейнер для Recent Post  */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;           
+        margin-top: 71px;
+        width: 100%;
+        height: 396px;
+        background-color: #E5E5E5;
     }
 
-    .Size_1 {
-        font-size: 44px;
+    .Inside1_Block3 {                        /* Первый внутренний блок */
+        width: 418px;
+        height: 355px;
+        margin-top: 7px;
     }
+
+    .Inside2_Block3 {                         /*  Второй внутренний блок  */
+        width: 418px;
+        height: 355px;
+        margin-left: 1.7%;
+        margin-top: 7px;
+    }
+
+    .post {                          /* Ссылка на посты  */
+        height: 60px;
+        font-size: 22px;
+        padding-top: 12px;
+    }
+    .link1Block3 {                 /* Стили ссылки на посты  */
+        color: black;
+        text-decoration: none;
+    }
+
+    .view {                      /*  Ссылка посмотреть все */
+        height: 60px;
+        width: 100%;
+        text-align: right;
+        padding-top: 20px;
+    }
+
+    .link2Block3 {                /*  Стили ссылки посмотреть все  */
+        color: #00A8CC;
+        text-decoration: none;
+        
+    }
+    
+    .TextBlock1 {                      /*    Стили для первого и второго блока  */
+        background-color: white;
+        width: 100%;
+        height: 295px;
+        padding-left: 23px;
+        padding-top: 24px;
+        padding-right: 21px;
+    }
+    
+
+    .TextOglav1 {                       /* Заголовок первого и второго Блока */
+        font-size: 26px;
+    }
+
+    .OtstupyVert1 {                 /* Отступы внутренние  */
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }  
+
+    .Block4 {
+        width: 856px;
+        height: 75px;
+        font-size: 22px;
+    }
+
+    .Container1Block5 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .VectorOtstup {
+        margin-top: 35px;
+        margin-bottom: 34px;
+    }
+
+    .Cell1 {
+        margin-left: 18px;
+        width: 594px;
+        height: 180px;
+    }
+
+    .TextSizeBlock5 {
+        font-size: 30px;
+    }
+
+    .Data1 {
+        background-image: url(picture/Rectangle\ 38.png);
+        width: 62px;
+        height: 25px;
+        background-size: cover;
+        padding-top: 3px;
+        padding-left: 10px;
+        margin-top: 15px;
+        margin-bottom: 33px;
+        }
+
+    .Block6 {
+        height: 265px;
+    }
+
+    .Block6FLEX {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Link1 {
+        background-image: url(picture/fb.png);
+        width: 30px;
+        height: 30px;
+        margin-left: 35px;
+    }
+
+    .Link2 {
+        background-image: url(picture/insta.png);
+        width: 30px;
+        height: 30px;
+        margin-left: 35px;  
+    }
+
+    .Link3 {
+    background-image: url(picture/Group.png);
+        width: 37px;
+        height: 30px;
+        margin-left: 35px;
+    }
+
+    .Link4 {
+        background-image: url(picture/Linkedin.png);
+        width: 30px;
+        height: 30px;
+        margin-left: 35px;  
+    }
+
+    .SizeBlock {
+        height: 75px;
+    }
+
 }
 
 
 /* ---------------------------Для мобильной версии -----------------------*/
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .Block1_Flex {          /* Верх блок меню */
         display: flex;
         flex-direction: column;
@@ -103,7 +256,7 @@ p {
         align-items: flex-end;
         width: 100%;
         height: 50px;
-        margin-bottom: 12.15vw;
+        margin-bottom: 140px;
     } 
 
     .MobilMenu {                          /* Мобильное меню ВКЛЮЧЕНО  */
@@ -113,38 +266,41 @@ p {
         height: 20px;
         border-width: 0px;
         margin-right: 5.6%;
-     
-    } 
+        } 
 
     .list1 {            /* меню (список)  СПИСОК ВЫКЛЮЧЕН */
         display: none;
         } 
+
         .Container1Flex1 {    /* Блок с текстом и фотографией  */
             display: flex;
             flex-direction: column-reverse;
             align-items: center;
             justify-content: center;
         }
+
         .Block1Container1 {   /* Блок с текстом */
             width: 497px;
-    
+         }
+
+        .Size_1 {                     /* Размер шрифта заголовка  */
+            font-size: 44px;
         }
+        
+        .Button1 {                                   /*  Кнопка  */
+            background-color: rgba(255, 100, 100, 1);
+            color: white;
+            width: 208px;
+            height: 47px;
+            margin-top: 4.07vw;
+        }
+
         .Block2Container1 {   /* Блок с Фотографией */
             background-image: url(picture/Ellipse1.png);
             background-size: cover;
             width: 243px;
             height: 243px;
             margin-left: 9.98%;
-    
-        }
-        .Button1 {                  /*  Кнопка  */
-            background-color: rgba(255, 100, 100, 1);
-            color: white;
-            width: 208px;
-            height: 47px;
-        }
-        .Size_1 {
-            font-size: 44px;
         }
   
 
