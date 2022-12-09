@@ -1,0 +1,157 @@
+
+/* ---------------------  Начальные установки  ------------------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    font-family: "Heebo", "Arial", serif;
+    background-color: #E5E5E5;
+    }
+
+h1 h2 h3 h4 h5 h6 {
+    font-weight: 700;
+}    
+
+p {
+    font-weight: 400;
+    font-size: medium;
+}
+
+.MainContainer {     /* Основной контейнер  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    } 
+    
+
+    
+    /* ----------------------   Для Desktop -----------------------------------------*/
+
+
+@media (min-width: 801px) and (max-width: 1440px) {
+   
+    .Block1_Flex {          /* Верх блок меню */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+        height: 50px;
+        margin-bottom: 12.15vw;
+    } 
+
+    .MobilMenu {
+        display: none;                         /* Мобильное меню выключено */
+        }
+
+    .list1 {            /* меню (список)  СПИСОК ВКЛЮЧЕН */
+        display: inline;
+        text-align: right;
+        } 
+
+    .link {                /* ссылки списка  */
+        color: black;
+        text-decoration: none;
+        margin-left: 2.86%;
+        }
+
+    #OtstupRight1 {
+        margin-right: 5.2%;
+        }
+    
+    .Container1Flex1 {    /* Блок с текстом и фотографией  */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .Block1Container1 {   /* Блок с текстом */
+        width: 497px;
+    }
+
+    .Block2Container1 {   /* Блок с Фотографией */
+        background-image: url(picture/Ellipse1.png);
+        background-size: cover;
+        width: 243px;
+        height: 243px;
+        margin-left: 9.98%;
+    }
+
+    .Button1 {                  /*  Кнопка  */
+        background-color: rgba(255, 100, 100, 1);
+        color: white;
+        width: 208px;
+        height: 47px;
+    }
+
+    .Size_1 {
+        font-size: 44px;
+    }
+}
+
+
+/* ---------------------------Для мобильной версии -----------------------*/
+
+@media (max-width: 800px) {
+    .Block1_Flex {          /* Верх блок меню */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+        height: 50px;
+        margin-bottom: 12.15vw;
+    } 
+
+    .MobilMenu {                          /* Мобильное меню ВКЛЮЧЕНО  */
+        background: url(picture/menu.png);
+        background-size: cover;
+        width: 30px;
+        height: 20px;
+        border-width: 0px;
+        margin-right: 5.6%;
+     
+    } 
+
+    .list1 {            /* меню (список)  СПИСОК ВЫКЛЮЧЕН */
+        display: none;
+        } 
+        .Container1Flex1 {    /* Блок с текстом и фотографией  */
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+        }
+        .Block1Container1 {   /* Блок с текстом */
+            width: 497px;
+    
+        }
+        .Block2Container1 {   /* Блок с Фотографией */
+            background-image: url(picture/Ellipse1.png);
+            background-size: cover;
+            width: 243px;
+            height: 243px;
+            margin-left: 9.98%;
+    
+        }
+        .Button1 {                  /*  Кнопка  */
+            background-color: rgba(255, 100, 100, 1);
+            color: white;
+            width: 208px;
+            height: 47px;
+        }
+        .Size_1 {
+            font-size: 44px;
+        }
+  
+
+}
+
+@media (min-width: 1441px){
+    body {
+        background-color: black;
+    }
+}
