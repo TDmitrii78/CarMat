@@ -64,9 +64,11 @@ p {
         }
     
     .Container1Flex1 {    /* Блок с текстом и фотографией  */
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     .Block1Container1 {   /* Блок с текстом */
@@ -102,7 +104,8 @@ p {
     .Block3_Flex {                /* Флекс контейнер для Recent Post  */
         display: flex;
         flex-direction: row;
-        justify-content: center;           
+        justify-content: center; 
+        flex-wrap: wrap;  
         margin-top: 71px;
         width: 100%;
         height: 396px;
@@ -174,6 +177,7 @@ p {
     .Container1Block5 {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .VectorOtstup {
@@ -203,19 +207,22 @@ p {
         }
 
     .Block6 {
-        height: 265px;
+        margin-top: 50px;
+        height: 182px;
     }
 
     .Block6FLEX {
+        margin-top: 51px;
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .Link1 {
         background-image: url(picture/fb.png);
         width: 30px;
         height: 30px;
-        margin-left: 35px;
     }
 
     .Link2 {
@@ -240,7 +247,8 @@ p {
     }
 
     .SizeBlock {
-        height: 75px;
+        margin-top: 26px;
+        font-size: 14px;
     }
 
 }
@@ -248,7 +256,7 @@ p {
 
 /* ---------------------------Для мобильной версии -----------------------*/
 
-@media (max-width: 900px) {
+@media (min-width: 600px) and (max-width: 900px) {
     .Block1_Flex {          /* Верх блок меню */
         display: flex;
         flex-direction: column;
@@ -256,7 +264,7 @@ p {
         align-items: flex-end;
         width: 100%;
         height: 50px;
-        margin-bottom: 140px;
+        margin-bottom: 50px;
     } 
 
     .MobilMenu {                          /* Мобильное меню ВКЛЮЧЕНО  */
@@ -277,6 +285,7 @@ p {
             flex-direction: column-reverse;
             align-items: center;
             justify-content: center;
+         
         }
 
         .Block1Container1 {   /* Блок с текстом */
@@ -285,6 +294,7 @@ p {
 
         .Size_1 {                     /* Размер шрифта заголовка  */
             font-size: 44px;
+            margin-bottom: 21px;
         }
         
         .Button1 {                                   /*  Кнопка  */
@@ -292,7 +302,7 @@ p {
             color: white;
             width: 208px;
             height: 47px;
-            margin-top: 4.07vw;
+            margin-top: 27px;
         }
 
         .Block2Container1 {   /* Блок с Фотографией */
@@ -300,10 +310,172 @@ p {
             background-size: cover;
             width: 243px;
             height: 243px;
-            margin-left: 9.98%;
+            margin-bottom: 43px;
+        }
+
+        .Block3_Flex {                /* Флекс контейнер для Recent Post  */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;  
+            align-items: center;       
+            margin-top: 59px;
+            width: 100%;
+            height: 674px;
+            background-color: #E5E5E5;
+        }
+    
+        .Inside1_Block3 {                        /* Первый внутренний блок */
+            width: 418px;
+            height: 355px;
+            margin-bottom: 17px;
+
+        }
+    
+        .Inside2_Block3 {                         /*  Второй внутренний блок  */
+            width: 418px;
+            height: 355px;
+
+
+        }
+    
+        .post {                          /* Ссылка на посты  */
+            height: 60px;
+            font-size: 22px;
+            padding-top: 12px;
+        }
+        .link1Block3 {                 /* Стили ссылки на посты  */
+            color: black;
+            text-decoration: none;
+        }
+    
+        .view {    
+            display: none;                  /*  Ссылка посмотреть все */
+            height: 60px;
+            width: 100%;
+            text-align: right;
+            padding-top: 20px;
+        }
+    
+        .link2Block3 {                /*  Стили ссылки посмотреть все  */
+            color: #00A8CC;
+            text-decoration: none;
+            
+        }
+        
+        .TextBlock1 {                      /*    Стили для первого и второго блока  */
+            background-color: white;
+            width: 100%;
+            height: 295px;
+            padding-left: 23px;
+            padding-top: 24px;
+            padding-right: 21px;
+        }
+        
+    
+        .TextOglav1 {                       /* Заголовок первого и второго Блока */
+            font-size: 26px;
+        }
+    
+        .OtstupyVert1 {                 /* Отступы внутренние  */
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }  
+    
+        .Block4 {
+            width: 497px;
+            height: 75px;
+            font-size: 22px;
+        }
+    
+        .Container1Block5 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .sizePic {
+            width: 492px;
+            height: 360px;
+        }
+
+        .VectorOtstup {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    
+        .Cell1 {
+            margin-left: 18px;
+            width: 594px;
+            height: 180px;
+        }
+    
+        .TextSizeBlock5 {
+            font-size: 30px;
+        }
+    
+        .Data1 {
+            background-image: url(picture/Rectangle\ 38.png);
+            width: 62px;
+            height: 25px;
+            background-size: cover;
+            padding-top: 3px;
+            padding-left: 10px;
+            margin-top: 15px;
+            margin-bottom: 33px;
+            }
+    
+        .Block6 {
+            margin-top: 50px;
+            height: 182px;
+        }
+    
+        .Block6FLEX {
+            margin-top: 85px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    
+        .Link1 {
+            background-image: url(picture/fb.png);
+            width: 30px;
+            height: 30px;
+        }
+    
+        .Link2 {
+            background-image: url(picture/insta.png);
+            width: 30px;
+            height: 30px;
+            margin-left: 35px;  
+        }
+    
+        .Link3 {
+        background-image: url(picture/Group.png);
+            width: 37px;
+            height: 30px;
+            margin-left: 35px;
+        }
+    
+        .Link4 {
+            background-image: url(picture/Linkedin.png);
+            width: 30px;
+            height: 30px;
+            margin-left: 35px;  
+        }
+    
+        .SizeBlock {
+            margin-top: 26px;
+            font-size: 14px;
         }
   
 
+}
+
+@media (min-width: 350px) and (max-width: 599px) {
+    body {
+        background-color: black;
+    }
 }
 
 @media (min-width: 1441px){
