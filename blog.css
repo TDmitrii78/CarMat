@@ -1,0 +1,133 @@
+.ContainerFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.OtstupVector {
+    margin-top: 29px;
+    margin-bottom: 32px;
+}
+
+.h1position {
+    font-size: 44px;
+    padding-top: 80px;
+}
+
+
+
+
+
+/* ----------------------   Для Desktop -----------------------------------------*/
+
+
+    
+    @media (min-width: 1680px)  {
+
+
+    }
+
+
+
+
+/* ----------------------   Для Desktop 2-----------------------------------------*/
+
+
+    @media (min-width: 901px) and (max-width: 1679px) {
+
+
+        .h1position {
+            font-size: 44px;
+            padding-top: 80px;
+        }
+
+
+        .BlockSize {
+            width: 682px;
+            height: 193px;
+        }
+
+        .textsS {
+            font-size: 30px;
+        }
+
+        .Font1 {
+            font-size: 20px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+
+    }
+
+
+
+/* ---------------------------Для мобильной версии -----------------------*/
+
+
+    @media (min-width: 600px) and (max-width: 900px) {
+
+
+
+        .h1position {
+            font-size: 44px;
+            padding-top: 80px;
+        }       
+
+        .BlockSize {
+            width: 599px;
+            height: 193px;
+        }
+
+        .textsS {
+            font-size: 30px;
+        }
+
+        .Font1 {
+            font-size: 20px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+
+    }
+
+
+
+
+/*----------------------------- Для мобильной версии 2 -------------------------*/
+
+
+
+
+    @media (max-width: 599px) {  
+
+
+        .h1position {
+            font-size: 30px;
+            padding-top: 80px;
+        }
+
+
+        .BlockSize {
+            width: 339px;
+            height: 222px;
+        }
+
+
+        .textsS {
+            font-size: 26px;
+        }
+
+        .Font1 {
+            font-size: 16px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        
+        
+        
+    }

@@ -47,6 +47,10 @@ p {
         color: blue;
     }
 
+    .color:hover {
+        background-color: blue;
+    }
+
     .hidenBlock {
         position: relative;
         right: 5.6%;
@@ -58,11 +62,22 @@ p {
         right: 0.5%;
     }
 
+    
+
     .hidenBlock:hover .hidenSpicok {display: block;}
     
     .Linkmenu {
         text-decoration: none;
         color: black;
+    }
+    
+    .link77 {
+        text-decoration: none;
+        color: black;
+    }
+
+    .link77:hover {
+        color: blue;
     }
 
     .Linkmenu:hover {
@@ -564,13 +579,13 @@ p {
     } 
 
     .MobilMenu {                          /* Мобильное меню ВКЛЮЧЕНО  */
-        background: url(picture/menu.png);
-        background-size: cover;
         width: 30px;
         height: 20px;
-        border-width: 0px;
-
         } 
+
+    .menuPic {
+        width: 90%;
+    }
 
 
     .list1 {            /* меню (список)  СПИСОК ВЫКЛЮЧЕН */
@@ -778,7 +793,7 @@ p {
 
 
 
-@media (min-width: 350px) and (max-width: 599px) {
+@media (max-width: 599px) {
     .Block1_Flex {          /* Верх блок меню */
         display: flex;
         position: sticky;
@@ -792,14 +807,13 @@ p {
     } 
 
     .MobilMenu {                          /* Мобильное меню ВКЛЮЧЕНО  */
-        background: url(picture/menu.png);
-        background-size: cover;
         width: 30px;
         height: 20px;
-        border-width: 0px;
-
         } 
 
+    .menuPic {
+        width: 90%;
+    }
 
     .list1 {            /* меню (список)  СПИСОК ВЫКЛЮЧЕН */
         display: none;
@@ -994,5 +1008,6 @@ p {
             margin-top: 26px;
             font-size: 14px;
         }
+
 }
 

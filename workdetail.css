@@ -1,0 +1,173 @@
+
+
+
+
+
+/* ----------------------   Для Desktop -----------------------------------------*/
+
+
+    
+@media (min-width: 1680px)  {
+
+
+    .containerFLEX {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 0.7%;
+    
+    
+    }
+
+
+    .Block11 {
+        width: 45%;
+
+    }
+    .h2FontOtstup {
+        text-align: center;
+        width: 100%;
+        font-size: 34px;
+        margin-top: 6.7vw;
+        margin-bottom: 2.6vw;
+    }
+
+    .picSize {
+        width: 100%;
+        margin-bottom: 2.4%;
+    }
+
+    .Backimg {
+        background-image: url(picture/Rectangle\ 2.png);
+        width: 62px;
+        height: 25px;
+        background-size: cover;
+    }
+
+    .Otstup23 {
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+
+
+    .Block33 {
+        width: 45%;
+    }
+
+    .Block22 {
+        width: 45%;
+    }
+
+
+    .h3size30 {
+        font-size: 30px;
+    }
+
+    .h4size24 {
+        font-size: 24px;
+        margin-bottom: 1.3%;
+    }
+
+
+
+}
+
+
+
+
+/* ----------------------   Для Desktop 2-----------------------------------------*/
+
+
+@media (min-width: 901px) and (max-width: 1679px) {
+
+
+    .containerFLEX {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    
+    
+    }
+
+
+
+
+    .Block11 {
+        width: 60%;
+
+    }
+    .h2FontOtstup {
+        width: 60%;
+        font-size: 34px;
+        margin-top: 6.7vw;
+        margin-bottom: 2.6vw;
+    }
+
+    .picSize {
+        width: 100%;
+        margin-bottom: 2.4%;
+    }
+
+    .Backimg {
+        background-image: url(picture/Rectangle\ 2.png);
+        width: 62px;
+        height: 25px;
+        background-size: cover;
+    }
+
+    .Otstup23 {
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+
+
+    .Block33 {
+        width: 60%;
+    }
+
+    .Block22 {
+        width: 60%;
+    }
+
+
+    .h3size30 {
+        font-size: 30px;
+    }
+
+    .h4size24 {
+        font-size: 24px;
+        margin-bottom: 1.3%;
+    }
+
+
+}
+
+
+
+/* ---------------------------Для мобильной версии -----------------------*/
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+
+
+}
+
+
+
+
+/*----------------------------- Для мобильной версии 2 -------------------------*/
+
+
+
+
+@media (max-width: 599px) {  
+    
+    
+}
