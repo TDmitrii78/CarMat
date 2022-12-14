@@ -7,25 +7,93 @@
 }
 
 
-.OtstupVector {
-    margin-top: 29px;
-    margin-bottom: 32px;
+/* ----------------------   Для Desktop -----------------------------------------*/
+
+
+    
+@media (min-width: 1980px)  {
+
+    .h1position {
+        font-size: 88px;
+        padding-top: 3.45vw;
+    }
+
+
+    .BlockSize {
+        width: 60%;
+        min-width: 193px;
+    }
+
+    .font2 {
+
+        font-size: 32px;
+    }
+
+    .Font1 {
+        font-size: 40px;
+        margin-top: 0.65vw;
+        margin-bottom: 0.65vw;
+    }
+
+    .textsS {
+        font-size: 60px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .textsS:hover {
+        color: blue;
+    }
+
+    .OtstupVector {
+        margin-top: 1.25vw;
+        margin-bottom: 1.35vw;
+    }
+
+
+
 }
-
-.h1position {
-    font-size: 44px;
-    padding-top: 80px;
-}
-
-
-
 
 
 /* ----------------------   Для Desktop -----------------------------------------*/
 
 
     
-    @media (min-width: 1680px)  {
+    @media (min-width: 1680px) and (max-width: 1980px)   {
+
+        .h1position {
+            font-size: 44px;
+            padding-top: 6.9vw;
+        }
+
+
+        .BlockSize {
+            width: 60%;
+            min-width: 193px;
+        }
+
+
+        .Font1 {
+            font-size: 20px;
+            margin-top: 1.3vw;
+            margin-bottom: 1.3vw;
+        }
+
+        .textsS {
+            font-size: 30px;
+            color: black;
+            text-decoration: none;
+        }
+
+        .textsS:hover {
+            color: blue;
+        }
+
+        .OtstupVector {
+            margin-top: 2.5vw;
+            margin-bottom: 2.7vw;
+        }
+
 
 
     }
@@ -41,23 +109,35 @@
 
         .h1position {
             font-size: 44px;
-            padding-top: 80px;
+            padding-top: 6.9vw;
         }
 
 
         .BlockSize {
-            width: 682px;
-            height: 193px;
+            width: 60%;
+            min-width: 193px;
+        }
+
+
+        .Font1 {
+            font-size: 20px;
+            margin-top: 1.3vw;
+            margin-bottom: 1.3vw;
         }
 
         .textsS {
             font-size: 30px;
+            color: black;
+            text-decoration: none;
         }
 
-        .Font1 {
-            font-size: 20px;
-            margin-top: 15px;
-            margin-bottom: 15px;
+        .textsS:hover {
+            color: blue;
+        }
+
+        .OtstupVector {
+            margin-top: 2.5vw;
+            margin-bottom: 2.7vw;
         }
 
 
@@ -71,27 +151,43 @@
     @media (min-width: 600px) and (max-width: 900px) {
 
 
-
         .h1position {
-            font-size: 44px;
-            padding-top: 80px;
-        }       
-
-        .BlockSize {
-            width: 599px;
-            height: 193px;
+            font-size: 30px;
+            padding-top: 11vw;
         }
 
+
+        .BlockSize {
+            width: 90%;
+            min-height: 222px;
+        }
+
+        .BlockSize1 {
+            width: 90%;
+        }
+
+
         .textsS {
-            font-size: 30px;
+            font-size: 26px;
+            color: black;
+            text-decoration: none;
+        }
+        .textsS:hover {
+            color: blue;
         }
 
         .Font1 {
-            font-size: 20px;
-            margin-top: 15px;
-            margin-bottom: 15px;
+            font-size: 16px;
+            margin-top: 4.2vw;
+            margin-bottom: 4.2vw;
         }
-
+         
+        .OtstupVector {
+            width: 90%;
+            margin-top: 7.7vw;
+            margin-bottom: 8.5vw;
+        }
+     
 
     }
 
@@ -106,28 +202,43 @@
     @media (max-width: 599px) {  
 
 
+  
         .h1position {
             font-size: 30px;
-            padding-top: 80px;
+            padding-top: 11vw;
         }
 
 
         .BlockSize {
-            width: 339px;
-            height: 222px;
+            width: 90%;
+            min-height: 222px;
+        }
+
+        .BlockSize1 {
+            width: 90%;
         }
 
 
         .textsS {
             font-size: 26px;
+            color: black;
+            text-decoration: none;
+        }
+        .textsS:hover {
+            color: blue;
         }
 
         .Font1 {
             font-size: 16px;
-            margin-top: 15px;
-            margin-bottom: 15px;
+            margin-top: 4.2vw;
+            margin-bottom: 4.2vw;
         }
-        
+         
+        .OtstupVector {
+            width: 90%;
+            margin-top: 7.7vw;
+            margin-bottom: 8.5vw;
+        }
         
         
     }

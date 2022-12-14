@@ -1,375 +1,38 @@
-
-/* ---------------------  Начальные установки  ------------------------*/
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    }
-
-body {
-    font-family: "Heebo", "Arial", serif;
-    background-color: white;
-    }
-
-h1 h2 h3 h4 h5 h6 {
-    font-weight: 700;
-}    
-
-p {
-    font-weight: 400;
-    font-size: medium;
+.link77 {
+    text-decoration: none;
+    color: black;
 }
 
-.MainContainer {     /* Основной контейнер  */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    } 
+.Button11:hover {
+    /* Кнопка  */
+    color: blue;
+}
+
+.link1Block3:hover {
+    color: blue;
+}
+
+.link2Block3:hover {
+    color: blue;
+}
+
+.link77:hover {
+    color: blue;
+}
 
 
-    .link:hover {     /* Меню Десктоп  */
-        color: blue;
-    }
+/* ----------------------   Для Desktop 2-----------------------------------------*/
 
 
-
-    .Button1:hover {       /* Кнопка  */
-        color: blue;
-    }
-
-    .link1Block3:hover {
-        color: blue;
-    }
-
-    .link2Block3:hover {
-        color: blue;
-    }
-
-    .color:hover {
-        background-color: blue;
-    }
-
-    .hidenBlock {
-        position: relative;
-        right: 5.6%;
-    }
-
-    .hidenSpicok {
-        position: absolute;
-        display: none;
-        right: 0.5%;
-    }
-
-    
-
-    .hidenBlock:hover .hidenSpicok {display: block;}
-    
-    .Linkmenu {
-        text-decoration: none;
-        color: black;
-    }
-    
-    .link77 {
-        text-decoration: none;
-        color: black;
-    }
-
-    .link77:hover {
-        color: blue;
-    }
-
-    .Linkmenu:hover {
-        color: blue;
-    }
+@media (min-width: 1680px)  {
 
 
-
-
-
-
-        /* ----------------------   Для Desktop -----------------------------------------*/
-
-
-    
-    @media (min-width: 1680px)  {
-        .MainContainer {     /* Основной контейнер  */
-            display: flex;
-            flex-direction: column;
-            flex-flow: wrap;
-            justify-content: center;
-            align-items: center;
-            } 
-        
-
-        .Block1_Flex {         /* Верх блок меню */
-            display: flex;
-            position: sticky;
-            flex-direction: column;
-            justify-content: flex-end;
-            width: 100%;
-            height: 50px;
-            top: 0px;
-            margin-bottom: 140px;
-        } 
-    
-        .MobilMenu {
-            display: none;                         /* Мобильное меню выключено */
-            }
-    
-        .list1 {            /* меню (список)  СПИСОК ВКЛЮЧЕН */
-            display: inline;
-            text-align: right;
-            } 
-    
-        .link {                /* ссылки списка  */
-            color: black;
-            text-decoration: none;
-            margin-left: 2.86%;
-            }
-      
-    
-        #OtstupRight1 {             /*  Отступ справо для последнего элемента списка  */
-            margin-right: 5.2%;
-            }
-        
-        .Container1Flex1 {    /* Блок с текстом и фотографией  */
-            width: 880px;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-    
-        .Block1Container1 {   /* Блок с текстом */
-            width: 497px;
-           margin-top: 18px; 
-        }
-    
-        .Size_1 {          /* Размер шрифта заголовка  */
-            font-size: 44px;
-        }
-    
-        #OtstupTop1 {
-            margin-top: 35px;
-        }
-    
-        .Button1 {                  /*  Кнопка  */
-            background-color: rgba(255, 100, 100, 1);
-            color: white;
-            width: 208px;
-            height: 47px;
-            margin-top: 38px;
-            font-size: 20px;
-        }
-    
-    
-        .Block2Container1 {   /* Блок с Фотографией */
-            background-image: url(picture/Ellipse1.png);
-            background-size: cover;
-            width: 243px;
-            height: 243px;
-            margin-left: 9.98%;
-        }
-    
-        .Block3_Flex {                /* Флекс контейнер для Recent Post  */
-            display: flex;
-            flex-direction: row;
-            justify-content: center; 
-            flex-wrap: wrap;  
-            margin-top: 71px;
-            width: 880px;
-            height: 396px;
-            background-color: #E5E5E5;
-        }
-    
-        .Inside1_Block3 {                        /* Первый внутренний блок */
-            width: 418px;
-            height: 355px;
-            margin-top: 7px;
-        }
-    
-        .Inside2_Block3 {                         /*  Второй внутренний блок  */
-            width: 418px;
-            height: 355px;
-            margin-left: 1.7%;
-            margin-top: 7px;
-        }
-    
-        .post {                          /* Ссылка на посты  */
-            height: 60px;
-            font-size: 22px;
-            padding-top: 12px;
-        }
-        .link1Block3 {                 /* Стили ссылки на посты  */
-            color: black;
-            text-decoration: none;
-        }
-    
-        .view {                      /*  Ссылка посмотреть все */
-            height: 60px;
-
-            text-align: right;
-            padding-top: 20px;
-        }
-    
-        .link2Block3 {                /*  Стили ссылки посмотреть все  */
-            color: #00A8CC;
-            text-decoration: none;
-            
-        }
-        
-        .TextBlock1 {                      /*    Стили для первого и второго блока  */
-            background-color: white;
-            width: 100%;
-            height: 295px;
-            padding-left: 23px;
-            padding-top: 24px;
-            padding-right: 21px;
-        }
-        
-    
-        .TextOglav1 {                       /* Заголовок первого и второго Блока */
-            font-size: 26px;
-        }
-    
-        .OtstupyVert1 {                 /* Отступы внутренние  */
-            margin-top: 30px;
-            margin-bottom: 20px;
-            font-size: 18px;
-        }  
-    
-        .Block4 {
-            display: none;
-            width: 856px;
-            height: 75px;
-            font-size: 22px;
-        }
-    
-        .Container1Block5 {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
-    
-        .VectorOtstup {
-            display: none;
-            margin-top: 35px;
-            margin-bottom: 34px;
-        }
-    
-        .Cell1 {
-            margin-left: 18px;
-            width: 594px;
-            height: 180px;
-        }
-    
-        .TextSizeBlock5 {
-            font-size: 30px;
-        }
-    
-        .Data1 {
-            background-image: url(picture/Rectangle\ 38.png);
-            width: 62px;
-            height: 25px;
-            background-size: cover;
-            padding-top: 3px;
-            padding-left: 10px;
-            margin-top: 15px;
-            margin-bottom: 33px;
-            }
-    
-        .Block6 {
-            margin-top: 50px;
-            height: 182px;
-        }
-    
-        .Block6FLEX {
-            margin-top: 51px;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            flex-wrap: wrap;
-            width: 1600px;
-        }
-    
-        .Link1 {
-            background-image: url(picture/fb.png);
-            width: 30px;
-            height: 30px;
-        }
-    
-        .Link2 {
-            background-image: url(picture/insta.png);
-            width: 30px;
-            height: 30px;
-            margin-left: 35px;  
-        }
-    
-        .Link3 {
-        background-image: url(picture/Group.png);
-            width: 37px;
-            height: 30px;
-            margin-left: 35px;
-        }
-    
-        .Link4 {
-            background-image: url(picture/Linkedin.png);
-            width: 30px;
-            height: 30px;
-            margin-left: 35px;  
-        }
-    
-        .SizeBlock {
-            text-align: center;
-            width: 1600px;
-            margin-top: 26px;
-            font-size: 14px;
-        }
-   
-    
-    }
-
-
-
-
-    
-    /* ----------------------   Для Desktop 2-----------------------------------------*/
-
-
-@media (min-width: 901px) and (max-width: 1679px) {
-   
-    .Block1_Flex {          /* Верх блок меню */
+    .mainBlock {
         display: flex;
-        position: sticky;
-        top: 2px;
         flex-direction: column;
-        justify-content: flex-end;
+        align-items: center;
         width: 100%;
-        height: 50px;
-        margin-bottom: 140px;
-    } 
-
-    .MobilMenu {
-        display: none;                         /* Мобильное меню выключено */
-        }
-
-    .list1 {            /* меню (список)  СПИСОК ВКЛЮЧЕН */
-        display: inline;
-        text-align: right;
-        } 
-
-    .link {                /* ссылки списка  */
-        color: black;
-        text-decoration: none;
-        margin-left: 2.86%;
-        }
-
-
-    #OtstupRight1 {             /*  Отступ справо для последнего элемента списка  */
-        margin-right: 5.2%;
-        }
+    }
     
     .Container1Flex1 {    /* Блок с текстом и фотографией  */
         width: 100%;
@@ -377,84 +40,72 @@ p {
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
+        margin-top: 12.15vw;
     }
-
+    
     .Block1Container1 {   /* Блок с текстом */
-        width: 497px;
-       margin-top: 18px; 
+        width: 43.14%;
+       margin-top: 1.56vw; 
     }
-
+    
     .Size_1 {          /* Размер шрифта заголовка  */
         font-size: 44px;
     }
-
+    
     #OtstupTop1 {
-        margin-top: 35px;
+        margin-top: 3.03vw;
     }
-
-    .Button1 {                  /*  Кнопка  */
+    
+    .Button11 {                  /*  Кнопка  */
         background-color: rgba(255, 100, 100, 1);
         color: white;
         width: 208px;
         height: 47px;
-        margin-top: 38px;
+        margin-top: 3.29vw;
         font-size: 20px;
     }
-
-
+    
     .Block2Container1 {   /* Блок с Фотографией */
         background-image: url(picture/Ellipse1.png);
         background-size: cover;
-        width: 243px;
-        height: 243px;
+        width: 486px;
+        height: 486px;
         margin-left: 9.98%;
     }
-
+    
     .Block3_Flex {                /* Флекс контейнер для Recent Post  */
         display: flex;
         flex-direction: row;
         justify-content: center; 
         flex-wrap: wrap;  
-        margin-top: 71px;
+        margin-top: 6.16vw;
         width: 100%;
         height: 396px;
         background-color: #E5E5E5;
     }
-
+    
     .Inside1_Block3 {                        /* Первый внутренний блок */
-        width: 418px;
+        width: 36.28%;
         height: 355px;
         margin-top: 7px;
     }
-
+    
     .Inside2_Block3 {                         /*  Второй внутренний блок  */
-        width: 418px;
+        width: 36.28%;
         height: 355px;
         margin-left: 1.7%;
         margin-top: 7px;
     }
-
+    
     .post {                          /* Ссылка на посты  */
         height: 60px;
         font-size: 22px;
         padding-top: 12px;
     }
+    
     .link1Block3 {                 /* Стили ссылки на посты  */
         color: black;
         text-decoration: none;
-    }
-
-    .view {                      /*  Ссылка посмотреть все */
-        height: 60px;
-        width: 100%;
-        text-align: right;
-        padding-top: 20px;
-    }
-
-    .link2Block3 {                /*  Стили ссылки посмотреть все  */
-        color: #00A8CC;
-        text-decoration: none;
-        
     }
     
     .TextBlock1 {                      /*    Стили для первого и второго блока  */
@@ -466,43 +117,591 @@ p {
         padding-right: 21px;
     }
     
-
     .TextOglav1 {                       /* Заголовок первого и второго Блока */
         font-size: 26px;
     }
-
+    
     .OtstupyVert1 {                 /* Отступы внутренние  */
         margin-top: 30px;
         margin-bottom: 20px;
         font-size: 18px;
     }  
-
+    
+    .view {
+        /*  Ссылка посмотреть все */
+        height: 60px;
+        width: 100%;
+        text-align: right;
+        padding-top: 20px;
+    }
+    
+    .link2Block3 {
+        /*  Стили ссылки посмотреть все  */
+        color: #00A8CC;
+        text-decoration: none;
+    
+    }
+    
     .Block4 {
-        width: 856px;
+        width: 74%;
         height: 75px;
         font-size: 22px;
     }
-
+    
     .Container1Block5 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        width: 74%;
+        justify-content: center;
     }
-
+    
+    
+    .sizePic {
+        width: 29%;
+    
+    }
+    
+    
+    .Cell1 {
+        margin-left: 1%;
+        width: 70%;
+        height: 180px;
+    }
+    
+    .TextSizeBlock5 {
+        font-size: 30px;
+    }
+    
+    .Data1 {
+        background-image: url(picture/Rectangle\ 38.png);
+        width: 62px;
+        height: 25px;
+        background-size: cover;
+        padding-top: 3px;
+        padding-left: 10px;
+        margin-top: 15px;
+        margin-bottom: 33px;
+    }
+    
     .VectorOtstup {
         margin-top: 35px;
         margin-bottom: 34px;
     }
-
-    .Cell1 {
-        margin-left: 18px;
-        width: 594px;
-        height: 180px;
+    
     }
 
+
+
+/* ----------------------   Для Desktop 2-----------------------------------------*/
+
+
+@media (min-width: 901px) and (max-width: 1679px) {
+
+
+.mainBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Container1Flex1 {    /* Блок с текстом и фотографией  */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 12.15vw;
+}
+
+.Block1Container1 {   /* Блок с текстом */
+    width: 43.14%;
+   margin-top: 1.56vw; 
+}
+
+.Size_1 {          /* Размер шрифта заголовка  */
+    font-size: 44px;
+}
+
+#OtstupTop1 {
+    margin-top: 3.03vw;
+}
+
+.Button11 {                  /*  Кнопка  */
+    background-color: rgba(255, 100, 100, 1);
+    color: white;
+    width: 208px;
+    height: 47px;
+    margin-top: 3.29vw;
+    font-size: 20px;
+}
+
+.Block2Container1 {   /* Блок с Фотографией */
+    background-image: url(picture/Ellipse1.png);
+    background-size: cover;
+    width: 243px;
+    height: 243px;
+    margin-left: 9.98%;
+}
+
+.Block3_Flex {                /* Флекс контейнер для Recent Post  */
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    flex-wrap: wrap;  
+    margin-top: 6.16vw;
+    width: 100%;
+    height: 396px;
+    background-color: #E5E5E5;
+}
+
+.Inside1_Block3 {                        /* Первый внутренний блок */
+    width: 36.28%;
+    height: 355px;
+    margin-top: 7px;
+}
+
+.Inside2_Block3 {                         /*  Второй внутренний блок  */
+    width: 36.28%;
+    height: 355px;
+    margin-left: 1.7%;
+    margin-top: 7px;
+}
+
+.post {                          /* Ссылка на посты  */
+    height: 60px;
+    font-size: 22px;
+    padding-top: 12px;
+}
+
+.link1Block3 {                 /* Стили ссылки на посты  */
+    color: black;
+    text-decoration: none;
+}
+
+.TextBlock1 {                      /*    Стили для первого и второго блока  */
+    background-color: white;
+    width: 100%;
+    height: 295px;
+    padding-left: 23px;
+    padding-top: 24px;
+    padding-right: 21px;
+}
+
+.TextOglav1 {                       /* Заголовок первого и второго Блока */
+    font-size: 26px;
+}
+
+.OtstupyVert1 {                 /* Отступы внутренние  */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}  
+
+.view {
+    /*  Ссылка посмотреть все */
+    height: 60px;
+    width: 100%;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.link2Block3 {
+    /*  Стили ссылки посмотреть все  */
+    color: #00A8CC;
+    text-decoration: none;
+
+}
+
+.Block4 {
+    width: 74%;
+    height: 75px;
+    font-size: 22px;
+}
+
+.Container1Block5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 74%;
+    justify-content: center;
+}
+
+
+.sizePic {
+    width: 29%;
+
+}
+
+
+.Cell1 {
+    margin-left: 1%;
+    width: 70%;
+    height: 180px;
+}
+
+.TextSizeBlock5 {
+    font-size: 30px;
+}
+
+.Data1 {
+    background-image: url(picture/Rectangle\ 38.png);
+    width: 62px;
+    height: 25px;
+    background-size: cover;
+    padding-top: 3px;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 33px;
+}
+
+.VectorOtstup {
+    margin-top: 35px;
+    margin-bottom: 34px;
+}
+
+}
+
+
+
+/* ----------------------   Для Mobil 1-----------------------------------------*/
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+
+
+    .mainBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .Container1Flex1 {    /* Блок с текстом и фотографией  */
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 12.15vw;
+    }
+    
+    .Block1Container1 {   /* Блок с текстом */
+        width: 43.14%;
+       margin-top: 1.56vw; 
+    }
+    
+    .Size_1 {          /* Размер шрифта заголовка  */
+        font-size: 44px;
+    }
+    
+    #OtstupTop1 {
+        margin-top: 3.03vw;
+    }
+    
+    .Button11 {                  /*  Кнопка  */
+        background-color: rgba(255, 100, 100, 1);
+        color: white;
+        width: 208px;
+        height: 47px;
+        margin-top: 3.29vw;
+        font-size: 20px;
+    }
+    
+    .Block2Container1 {   /* Блок с Фотографией */
+        background-image: url(picture/Ellipse1.png);
+        background-size: cover;
+        width: 243px;
+        height: 243px;
+        margin-left: 9.98%;
+    }
+    
+    .Block3_Flex {                /* Флекс контейнер для Recent Post  */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;  
+        margin-top: 6.16vw;
+        width: 100%;
+        min-height: 396px;
+        background-color: #E5E5E5;
+    }
+    
+    .Inside1_Block3 {                        /* Первый внутренний блок */
+        width: 94%;
+        height: 355px;
+        margin-top: 7px;
+    }
+    
+    .Inside2_Block3 {                         /*  Второй внутренний блок  */
+        width: 94%;
+        height: 355px;
+        margin-left: 1.7%;
+        margin-top: 7px;
+    }
+    
+    .post {                          /* Ссылка на посты  */
+        height: 60px;
+        font-size: 22px;
+        padding-top: 12px;
+    }
+    
+    .link1Block3 {                 /* Стили ссылки на посты  */
+        color: black;
+        text-decoration: none;
+    }
+    
+    .TextBlock1 {                      /*    Стили для первого и второго блока  */
+        background-color: white;
+        width: 100%;
+        height: 295px;
+        padding-left: 23px;
+        padding-top: 24px;
+        padding-right: 21px;
+    }
+    
+    .TextOglav1 {                       /* Заголовок первого и второго Блока */
+        font-size: 26px;
+    }
+    
+    .OtstupyVert1 {                 /* Отступы внутренние  */
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }  
+    
+    .view {
+        /*  Ссылка посмотреть все */
+        height: 60px;
+        width: 100%;
+        text-align: right;
+        padding-top: 20px;
+    }
+    
+    .link2Block3 {
+        /*  Стили ссылки посмотреть все  */
+        color: #00A8CC;
+        text-decoration: none;
+    
+    }
+    
+    .Block4 {
+        width: 94%;
+        height: 75px;
+        font-size: 22px;
+    }
+    
+    .Container1Block5 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 94%;
+        justify-content: center;
+    }
+    
+    
+    .sizePic {
+        width: 29%;
+    
+    }
+    
+    
+    .Cell1 {
+        margin-left: 1%;
+        width: 94%;
+        height: 180px;
+    }
+    
     .TextSizeBlock5 {
         font-size: 30px;
     }
+    
+    .Data1 {
+        background-image: url(picture/Rectangle\ 38.png);
+        width: 62px;
+        height: 25px;
+        background-size: cover;
+        padding-top: 3px;
+        padding-left: 10px;
+        margin-top: 15px;
+        margin-bottom: 33px;
+    }
+    
+    .VectorOtstup {
+        margin-top: 35px;
+        margin-bottom: 34px;
+    }
+    
+    }
+
+
+/* ----------------------   Для Mobil 2 -----------------------------------------*/
+
+
+@media (max-width: 599px) {
+
+
+    .mainBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Container1Flex1 {
+        /* Блок с текстом и фотографией  */
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .Block1Container1 {
+        /* Блок с текстом */
+        width: 94%;
+        text-align: center;
+    }
+
+    .Size_1 {
+        /* Размер шрифта заголовка  */
+        font-size: 32px;
+        margin-bottom: 21px;
+        width: 94%;
+    }
+
+    .Button11 {
+        /*  Кнопка  */
+        background-color: rgba(255, 100, 100, 1);
+        color: white;
+        width: 208px;
+        height: 47px;
+        margin-top: 27px;
+    }
+
+    .Block2Container1 {
+        /* Блок с Фотографией */
+        background-image: url(picture/Ellipse1.png);
+        background-size: cover;
+        width: 171px;
+        height: 171px;
+        margin-bottom: 43px;
+    }
+
+    .Block3_Flex {
+        /* Флекс контейнер для Recent Post  */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 75px;
+        width: 100%;
+        min-height: 647px;
+        background-color: #E5E5E5;
+    }
+
+    .Inside1_Block3 {
+        /* Первый внутренний блок */
+        width: 94%;
+        min-height: 326px;
+        margin-bottom: 17px;
+
+    }
+
+    .Inside2_Block3 {
+        /*  Второй внутренний блок  */
+        width: 94%;
+        min-height: 266px;
+
+
+    }
+    
+    .post {
+        /* Ссылка на посты  */
+        height: 60px;
+        font-size: 18px;
+        padding-top: 12px;
+        text-align: center;
+    }
+
+
+    .link1Block3 {
+        /* Стили ссылки на посты  */
+        color: black;
+        text-decoration: none;
+    }
+
+
+
+    .view {
+        display: none;
+        /*  Выключено Ссылка посмотреть все */
+
+    }
+
+
+    .TextBlock1 {
+        /*    Стили для первого и второго блока  */
+        background-color: white;
+        width: 100%;
+        min-height: 266px;
+        padding-left: 19px;
+        padding-top: 12px;
+        padding-right: 21px;
+    }
+
+
+    .TextOglav1 {
+        /* Заголовок первого и второго Блока */
+        font-size: 22px;
+    }
+
+
+    .link77 {
+        text-decoration: none;
+        color: black;
+    }
+
+
+    .OtstupyVert1 {
+        /* Отступы внутренние  */
+        margin-top: 12px;
+        margin-bottom: 19px;
+        font-size: 16px;
+    }
+
+    .Block4 {
+        width: 94%;
+        height: 75px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+
+    .Container1Block5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .sizePic {
+        width: 94%;
+    }
+
+    .Cell1 {
+        margin-left: 18px;
+        width: 94%;
+        min-height: 220px;
+    }
+
+
+    .TextSizeBlock5 {
+        font-size: 24px;
+    }
+
 
     .Data1 {
         background-image: url(picture/Rectangle\ 38.png);
@@ -513,501 +712,16 @@ p {
         padding-left: 10px;
         margin-top: 15px;
         margin-bottom: 33px;
-        }
-
-    .Block6 {
-        margin-top: 50px;
-        height: 182px;
-    }
-
-    .Block6FLEX {
-        margin-top: 51px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .Link1 {
-        background-image: url(picture/fb.png);
-        width: 30px;
-        height: 30px;
-    }
-
-    .Link2 {
-        background-image: url(picture/insta.png);
-        width: 30px;
-        height: 30px;
-        margin-left: 35px;  
-    }
-
-    .Link3 {
-    background-image: url(picture/Group.png);
-        width: 37px;
-        height: 30px;
-        margin-left: 35px;
-    }
-
-    .Link4 {
-        background-image: url(picture/Linkedin.png);
-        width: 30px;
-        height: 30px;
-        margin-left: 35px;  
-    }
-
-    .SizeBlock {
-        margin-top: 26px;
-        font-size: 14px;
-    }
-
-}
-
-
-/* ---------------------------Для мобильной версии -----------------------*/
-
-@media (min-width: 600px) and (max-width: 900px) {
-    .Block1_Flex {          /* Верх блок меню */
-        display: flex;
-        position: sticky;
-        top: 0px;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: flex-end;
-        width: 100%;
-        height: 50px;
-        margin-bottom: 50px;
-    } 
-
-    .MobilMenu {                          /* Мобильное меню ВКЛЮЧЕНО  */
-        width: 30px;
-        height: 20px;
-        } 
-
-    .menuPic {
-        width: 90%;
     }
 
 
-    .list1 {            /* меню (список)  СПИСОК ВЫКЛЮЧЕН */
-        display: none;
-        } 
-
-        .Container1Flex1 {    /* Блок с текстом и фотографией  */
-            display: flex;
-            flex-direction: column-reverse;
-            align-items: center;
-            justify-content: center;
-         
-        }
-
-        .Block1Container1 {   /* Блок с текстом */
-            width: 497px;
-         }
-
-        .Size_1 {                     /* Размер шрифта заголовка  */
-            font-size: 44px;
-            margin-bottom: 21px;
-        }
-        
-        .Button1 {                                   /*  Кнопка  */
-            background-color: rgba(255, 100, 100, 1);
-            color: white;
-            width: 208px;
-            height: 47px;
-            margin-top: 27px;
-        }
-
- 
-
-        .Block2Container1 {   /* Блок с Фотографией */
-            background-image: url(picture/Ellipse1.png);
-            background-size: cover;
-            width: 243px;
-            height: 243px;
-            margin-bottom: 43px;
-        }
-
-        .Block3_Flex {                /* Флекс контейнер для Recent Post  */
-            display: flex;
-            flex-direction: column;
-            justify-content: center;  
-            align-items: center;       
-            margin-top: 59px;
-            width: 100%;
-            height: 674px;
-            background-color: #E5E5E5;
-        }
-    
-        .Inside1_Block3 {                        /* Первый внутренний блок */
-            width: 418px;
-            height: 355px;
-            margin-bottom: 17px;
-
-        }
-    
-        .Inside2_Block3 {                         /*  Второй внутренний блок  */
-            width: 418px;
-            height: 355px;
-
-
-        }
-    
-        .post {                          /* Ссылка на посты  */
-            height: 60px;
-            font-size: 22px;
-            padding-top: 12px;
-        }
-        .link1Block3 {                 /* Стили ссылки на посты  */
-            color: black;
-            text-decoration: none;
-        }
-    
-        .view {    
-            display: none;                  /*  Ссылка посмотреть все */
-            height: 60px;
-            width: 100%;
-            text-align: right;
-            padding-top: 20px;
-        }
-    
-        .link2Block3 {                /*  Стили ссылки посмотреть все  */
-            color: #00A8CC;
-            text-decoration: none;
-            
-        }
-        
-        .TextBlock1 {                      /*    Стили для первого и второго блока  */
-            background-color: white;
-            width: 100%;
-            height: 295px;
-            padding-left: 23px;
-            padding-top: 24px;
-            padding-right: 21px;
-        }
-        
-    
-        .TextOglav1 {                       /* Заголовок первого и второго Блока */
-            font-size: 26px;
-        }
-    
-        .OtstupyVert1 {                 /* Отступы внутренние  */
-            margin-top: 30px;
-            margin-bottom: 20px;
-            font-size: 18px;
-        }  
-    
-        .Block4 {
-            width: 497px;
-            height: 75px;
-            font-size: 22px;
-        }
-    
-        .Container1Block5 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        .sizePic {
-            width: 492px;
-            height: 360px;
-        }
-
-        .VectorOtstup {
-            margin-top: 15px;
-            margin-bottom: 15px;
-        }
-    
-        .Cell1 {
-            margin-left: 18px;
-            width: 594px;
-            height: 180px;
-        }
-    
-        .TextSizeBlock5 {
-            font-size: 30px;
-        }
-    
-        .Data1 {
-            background-image: url(picture/Rectangle\ 38.png);
-            width: 62px;
-            height: 25px;
-            background-size: cover;
-            padding-top: 3px;
-            padding-left: 10px;
-            margin-top: 15px;
-            margin-bottom: 33px;
-            }
-    
-        .Block6 {
-            margin-top: 50px;
-            height: 182px;
-        }
-    
-        .Block6FLEX {
-            margin-top: 85px;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-    
-        .Link1 {
-            background-image: url(picture/fb.png);
-            width: 30px;
-            height: 30px;
-        }
-    
-        .Link2 {
-            background-image: url(picture/insta.png);
-            width: 30px;
-            height: 30px;
-            margin-left: 35px;  
-        }
-    
-        .Link3 {
-        background-image: url(picture/Group.png);
-            width: 37px;
-            height: 30px;
-            margin-left: 35px;
-        }
-    
-        .Link4 {
-            background-image: url(picture/Linkedin.png);
-            width: 30px;
-            height: 30px;
-            margin-left: 35px;  
-        }
-    
-        .SizeBlock {
-            margin-top: 26px;
-            font-size: 14px;
-        }
-  
-
-}
-
-
-
-/*----------------------------- Для мобильной версии 2 -------------------------*/
-
-
-
-
-@media (max-width: 599px) {
-    .Block1_Flex {          /* Верх блок меню */
-        display: flex;
-        position: sticky;
-        top: 0px;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: flex-end;
-        width: 100%;
-        height: 50px;
-        margin-bottom: 33px;
-    } 
-
-    .MobilMenu {                          /* Мобильное меню ВКЛЮЧЕНО  */
-        width: 30px;
-        height: 20px;
-        } 
-
-    .menuPic {
-        width: 90%;
+    .VectorOtstup {
+        width: 94%;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
-    .list1 {            /* меню (список)  СПИСОК ВЫКЛЮЧЕН */
-        display: none;
-        } 
-
-        .Container1Flex1 {    /* Блок с текстом и фотографией  */
-            display: flex;
-            flex-direction: column-reverse;
-            align-items: center;
-            justify-content: center;
-         
-        }
-
-        .Block1Container1 {   /* Блок с текстом */
-            width: 328px;
-            text-align: center;
-         }
-
-        .Size_1 {                     /* Размер шрифта заголовка  */
-            font-size: 32px;
-            margin-bottom: 21px;
-            width: 300px;
-        }
-        
-        .Button1 {                                   /*  Кнопка  */
-            background-color: rgba(255, 100, 100, 1);
-            color: white;
-            width: 208px;
-            height: 47px;
-            margin-top: 27px;
-        }
 
 
 
-        .Block2Container1 {   /* Блок с Фотографией */
-            background-image: url(picture/Ellipse1.png);
-            background-size: cover;
-            width: 171px;
-            height: 171px;
-            margin-bottom: 43px;
-        }
-
-        .Block3_Flex {                /* Флекс контейнер для Recent Post  */
-            display: flex;
-            flex-direction: column;
-            justify-content: center;  
-            align-items: center;       
-            margin-top: 75px;
-            width: 100%;
-            height: 647px;
-            background-color: #E5E5E5;
-        }
-    
-        .Inside1_Block3 {                        /* Первый внутренний блок */
-            width: 354px;
-            height: 326px;
-            margin-bottom: 17px;
-
-        }
-    
-        .Inside2_Block3 {                         /*  Второй внутренний блок  */
-            width: 354px;
-            height: 266px;
-
-
-        }
-    
-        .post {                          /* Ссылка на посты  */
-            height: 60px;
-            font-size: 18px;
-            padding-top: 12px;
-            text-align: center;
-        }
-        .link1Block3 {                 /* Стили ссылки на посты  */
-            color: black;
-            text-decoration: none;
-        }
-
-        
-    
-        .view {    
-            display: none;                  /*  Выключено Ссылка посмотреть все */
-           
-        }
-    
-        
-        .TextBlock1 {                      /*    Стили для первого и второго блока  */
-            background-color: white;
-            width: 100%;
-            height: 266px;
-            padding-left: 19px;
-            padding-top: 12px;
-            padding-right: 21px;
-        }
-        
-    
-        .TextOglav1 {                       /* Заголовок первого и второго Блока */
-            font-size: 22px;
-        }
-    
-        .OtstupyVert1 {                 /* Отступы внутренние  */
-            margin-top: 12px;
-            margin-bottom: 19px;
-            font-size: 16px;
-        }  
-    
-        .Block4 {
-            width: 354px;
-            height: 75px;
-            font-size: 18px;
-            text-align: center;
-        }
-    
-        .Container1Block5 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        .sizePic {
-            width: 339px;
-            height: 230px;
-        }
-
-        .VectorOtstup {
-            margin-top: 15px;
-            margin-bottom: 15px;
-        }
-    
-        .Cell1 {
-            margin-left: 18px;
-            width: 344px;
-            height: 220px;
-        }
-    
-        .TextSizeBlock5 {
-            font-size: 24px;
-        }
-    
-        .Data1 {
-            background-image: url(picture/Rectangle\ 38.png);
-            width: 62px;
-            height: 25px;
-            background-size: cover;
-            padding-top: 3px;
-            padding-left: 10px;
-            margin-top: 15px;
-            margin-bottom: 33px;
-            }
-    
-        .Block6 {
-            margin-top: 50px;
-            height: 182px;
-        }
-    
-        .Block6FLEX {
-            margin-top: 85px;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-    
-        .Link1 {
-            background-image: url(picture/fb.png);
-            width: 30px;
-            height: 30px;
-        }
-    
-        .Link2 {
-            background-image: url(picture/insta.png);
-            width: 30px;
-            height: 30px;
-            margin-left: 35px;  
-        }
-    
-        .Link3 {
-        background-image: url(picture/Group.png);
-            width: 37px;
-            height: 30px;
-            margin-left: 35px;
-        }
-    
-        .Link4 {
-            background-image: url(picture/Linkedin.png);
-            width: 30px;
-            height: 30px;
-            margin-left: 35px;  
-        }
-
-    
-        .SizeBlock {
-            margin-top: 26px;
-            font-size: 14px;
-        }
-
-}
-
+    }
