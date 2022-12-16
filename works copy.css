@@ -1,0 +1,103 @@
+
+/* ----------------------   Для Desktop -----------------------------------------*/
+
+
+    
+@media (min-width: 1680px)  {
+
+
+
+}
+
+
+
+
+/* ----------------------   Для Desktop 2-----------------------------------------*/
+
+
+@media (min-width: 901px) and (max-width: 1679px) {
+
+    .ConteinerGRID {
+        display: grid;
+        grid-template-columns: 16vw 22vw 36vw 16vw;
+   
+    }
+
+    .item1 {
+
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    .LineSize1 {
+        width: 100%;
+    }
+
+    .picSz1 {
+        width: 100%;
+    }
+
+    .h2fontSize {
+        font-size: 30px;
+    }
+
+    .pSize1 {
+        font-size: 16px;
+    }
+
+    .pSize2 {
+        font-size: 20px;
+        margin-top: 1.38vw;
+        margin-bottom: 1.38vw;
+        color: #8695A4;
+
+    }
+
+    .bgPic1 {
+        background-image: url(picture/Rectangle\ 39.png);
+        width: 62px;
+        height: 25px;
+        float: left;
+        margin-top: 1.38vw;
+        margin-bottom: 1.38vw;
+        margin-right: 26px;
+    }
+
+    .positionPic1 {
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .LINK123 {
+        text-decoration: none;
+        color: black;
+    }
+
+    .LINK123:hover {
+        color: blue;
+    }
+
+}
+
+
+
+/* ---------------------------Для мобильной версии -----------------------*/
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+
+
+}
+
+
+
+
+/*----------------------------- Для мобильной версии 2 -------------------------*/
+
+
+
+
+@media (max-width: 599px) {  
+    
+    
+}

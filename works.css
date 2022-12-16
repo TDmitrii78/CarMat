@@ -1,21 +1,309 @@
 
-/* ----------------------   Для Desktop -----------------------------------------*/
+/* ----------------------   Для Desktop 1-----------------------------------------*/
 
 
     
-@media (min-width: 1680px)  {
+@media (min-width: 1921px) {
 
+    .ConteinerGRID {
+        display: grid;
+        grid-template-columns: 11vw 18vw 11vw 18vw;
+        gap: 3.4vw;
+   
+    }
+
+    #box0 {
+        text-align: center;
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    #box1 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #box2 {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    #box3 {
+        grid-column: 1;
+        grid-row: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    #box4 {
+        grid-column: 3;
+        grid-row: 2;
+
+    }
+
+    #box5 {
+        grid-column: 4;
+        grid-row: 2;
+
+    }
+
+    #box6 {
+        grid-column: 3;
+        grid-row: 3;
+        grid-column-start: 3;
+        grid-column-end: 5;
+
+    }
+
+    #box7 {
+        grid-column: 1;
+        grid-row: 4;
+
+    }
+
+    #box8 {
+        grid-column: 2;
+        grid-row: 4;
+
+    }
+
+    #box9 {
+        grid-column: 1;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    #box10 {
+        grid-column: 3;
+        grid-row: 4;
+
+    }
+
+    #box11 {
+        grid-column: 4;
+        grid-row: 4;
+
+    }
+
+    #box12 {
+        grid-column: 3;
+        grid-row: 5;
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+
+
+    .SizeT1 {
+        font-size: 44px;
+        margin-top: 7.8vw;
+    }
+
+    .LineSize1 {
+        width: 100%;
+    }
+
+    .picSz1 {
+
+        width: 100%;
+    }
+
+    .h2fontSize {
+        font-size: 30px;
+    }
+
+    .pSize1 {
+        font-size: 16px;
+    }
+
+    .pSize2 {
+        font-size: 20px;
+        margin-top: 1.38vw;
+        margin-bottom: 1.38vw;
+        color: #8695A4;
+
+    }
+
+    .bgPic1 {
+        background-image: url(picture/Rectangle\ 39.png);
+        width: 62px;
+        height: 25px;
+        float: left;
+        margin-top: 1.38vw;
+        margin-bottom: 1.38vw;
+        margin-right: 26px;
+    }
+
+    .positionPic1 {
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .LINK123 {
+        text-decoration: none;
+        color: black;
+    }
+
+    .LINK123:hover {
+        color: blue;
+    }
 
 }
 
 
 
 
-/* ----------------------   Для Desktop 2-----------------------------------------*/
+
+
+/* ----------------------   Для Desktop 2 -----------------------------------------*/
+
+
+    
+@media (min-width: 1680px)  and (max-width: 1920px) {
+
+    .ConteinerGRID {
+        display: grid;
+        grid-template-columns: 22vw 36vw;
+        gap: 3.4vw;
+   
+    }
+
+    .item1 {
+
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .SizeT1 {
+        font-size: 44px;
+        margin-top: 7.8vw;
+    }
+
+    .LineSize1 {
+        width: 100%;
+    }
+
+    .picSz1 {
+        width: 100%;
+    }
+
+    .h2fontSize {
+        font-size: 30px;
+    }
+
+    .pSize1 {
+        font-size: 16px;
+    }
+
+    .pSize2 {
+        font-size: 20px;
+        margin-top: 1.38vw;
+        margin-bottom: 1.38vw;
+        color: #8695A4;
+
+    }
+
+    .bgPic1 {
+        background-image: url(picture/Rectangle\ 39.png);
+        width: 62px;
+        height: 25px;
+        float: left;
+        margin-top: 1.38vw;
+        margin-bottom: 1.38vw;
+        margin-right: 26px;
+    }
+
+    .positionPic1 {
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .LINK123 {
+        text-decoration: none;
+        color: black;
+    }
+
+    .LINK123:hover {
+        color: blue;
+    }
+
+}
+
+
+
+
+
+
+/* ----------------------   Для Desktop 3-----------------------------------------*/
 
 
 @media (min-width: 901px) and (max-width: 1679px) {
 
+    .ConteinerGRID {
+        display: grid;
+        grid-template-columns: 22vw 36vw;
+        gap: 3.4vw;
+   
+    }
+
+    .item1 {
+
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .SizeT1 {
+        font-size: 44px;
+        margin-top: 7.8vw;
+    }
+
+    .LineSize1 {
+        width: 100%;
+    }
+
+    .picSz1 {
+        width: 100%;
+    }
+
+    .h2fontSize {
+        font-size: 30px;
+    }
+
+    .pSize1 {
+        font-size: 16px;
+    }
+
+    .pSize2 {
+        font-size: 20px;
+        margin-top: 1.38vw;
+        margin-bottom: 1.38vw;
+        color: #8695A4;
+
+    }
+
+    .bgPic1 {
+        background-image: url(picture/Rectangle\ 39.png);
+        width: 62px;
+        height: 25px;
+        float: left;
+        margin-top: 1.38vw;
+        margin-bottom: 1.38vw;
+        margin-right: 26px;
+    }
+
+    .positionPic1 {
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .LINK123 {
+        text-decoration: none;
+        color: black;
+    }
+
+    .LINK123:hover {
+        color: blue;
+    }
 
 }
 
@@ -25,6 +313,76 @@
 
 
 @media (min-width: 600px) and (max-width: 900px) {
+
+
+    .ConteinerGRID {
+        display: grid;
+        grid-template-columns: 33vw 57vw;
+        gap: 3.4vw;
+   
+    }
+
+    .item1 {
+
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .SizeT1 {
+        font-size: 44px;
+        margin-top: 7.8vw;
+    }
+
+    .LineSize1 {
+        width: 100%;
+    }
+
+    .picSz1 {
+        width: 100%;
+    }
+
+    .h2fontSize {
+        font-size: 30px;
+    }
+
+    .pSize1 {
+        font-size: 16px;
+    }
+
+    .pSize2 {
+        font-size: 20px;
+        margin-top: 1.38vw;
+        margin-bottom: 1.38vw;
+        color: #8695A4;
+
+    }
+
+    .bgPic1 {
+        background-image: url(picture/Rectangle\ 39.png);
+        width: 62px;
+        height: 25px;
+        float: left;
+        margin-top: 1.38vw;
+        margin-bottom: 1.38vw;
+        margin-right: 26px;
+    }
+
+    .positionPic1 {
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .LINK123 {
+        text-decoration: none;
+        color: black;
+    }
+
+    .LINK123:hover {
+        color: blue;
+    }
+
+
+  
 
 
 }
@@ -38,6 +396,77 @@
 
 
 @media (max-width: 599px) {  
+
+
+    .ConteinerGRID {
+        display: grid;
+        grid-template-columns: 91vw;
+
+   
+    }
+
+    .item1 {
+
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .SizeT1 {
+        font-size: 30px;
+        margin-top: 7.8vw;
+    }
+
+    .LineSize1 {
+        width: 100%;
+    }
+
+    .picSz1 {
+        width: 100%;
+    }
+
+    .h2fontSize {
+        font-size: 24px;
+    }
+
+    .pSize1 {
+        font-size: 16px;
+    }
+
+    .pSize2 {
+        font-size: 16px;
+        margin-top: 1.38vw;
+        margin-bottom: 1.38vw;
+        color: #8695A4;
+
+    }
+
+    .bgPic1 {
+        background-image: url(picture/Rectangle\ 39.png);
+        width: 62px;
+        height: 25px;
+        float: left;
+        margin-top: 1.38vw;
+        margin-bottom: 1.38vw;
+        margin-right: 26px;
+    }
+
+    .positionPic1 {
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .LINK123 {
+        text-decoration: none;
+        color: black;
+    }
+
+    .LINK123:hover {
+        color: blue;
+    }
+
+
+
+
     
     
 }
